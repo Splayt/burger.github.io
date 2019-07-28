@@ -1,2 +1,2 @@
 # burgersite
-burger
+Бургеры магазин
