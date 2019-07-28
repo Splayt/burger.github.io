@@ -1,0 +1,21 @@
+//colors
+
+
+//normalize
+@import "normalize.scss";
+
+
+//setup
+@import "config/var";
+@import "layout/fonts.scss";
+@import "layout/init";
+
+//blocks
+@import "blocks/section.scss";
+@import "blocks/header.scss";
+@import "blocks/main-section.scss";
+@import "blocks/menu.scss";
+@import "blocks/logo.scss";
+@import "blocks/best-section.scss";
+@import "blocks/features.scss";
+@import "blocks/reviews.scss";
