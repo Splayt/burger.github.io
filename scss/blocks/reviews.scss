@@ -1,48 +1,51 @@
 .reviews {
     width: 100%;
+    background: #000;
 }
 
 .reviews__list {
-    height: 100%;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     list-style-type: none;
-    padding: 0;
-    margin: 0;
-
 }
 
 .reviews__item {
     height: 50%;
     width: 25%;
+    background: center center /cover no-repeat;
     position: relative;
-    background: center center no-repeat;
-    background-size: cover;
-    
+
+    &:hover {
+        .reviews__wrap {
+            opacity: 1;
+        }
+    }
 }
 
 .reviews__wrap {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    color: $white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(#000, .5);
+    opacity: 0;
     padding: 50px 20px 0;
-    overflow: hidden;
 }
+
 .reviews__title {
-	font-family: 'Gagalin';
-	font-weight: 400;
+    font-family: "Gagalin";
+    font-size: 14px;
+    line-height: 28px;
+    color: #fff;
     margin-bottom: 20px;
 }
+
 .reviews__text {
-    display: block;
-    font-family: "Ubuntu";
-    font-size: 14px;
-    line-height: 24px;
+	font-weight: 300;
+    margin-bottom: 20px;
     color: #fff;
-    font-weight: lighter;
-    margin: 15px 0 50px 0;
 }
 .reviews__button {
 	display: inline-block;
@@ -53,9 +56,11 @@
 	padding: 3px 15px;
 	background-color: $dark;
 	border-radius: 5px;
+	cursor: pointer;
 	text-decoration: none;
 	color: $white;
-	
+	transition: .4s;
+	&:hover {
+		background-color: darken($dark, 7%);
+	}
 }
-
-
