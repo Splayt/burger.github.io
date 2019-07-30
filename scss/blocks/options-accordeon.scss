@@ -1,0 +1,34 @@
+.options-accordeon {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.options-accordeon__list {
+    display:flex;
+    height: 100%;
+}
+
+.options-accordeon__item {
+    display: flex;
+    height: 100%;
+    color: #fff;
+}
+
+.options-accordeon__trigger {
+    width: 80px;
+    font-family: 'Gagalin', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	color: $white;
+	text-decoration: none;
+	writing-mode: vertical-lr;
+	transform: rotate(180deg);
+	align-items: center;
+	padding-top: 40px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
