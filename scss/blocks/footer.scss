@@ -1,0 +1,37 @@
+.footer {
+
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: $black;
+	text-align: left;
+	padding: 7px 0;
+}
+
+.footer__container {
+    flex-direction: row;
+}
+
+.footer__left, .footer__right {
+    width: 50%;
+    margin: 0;
+}
+
+.footer__right {
+    text-align: right;
+}
+
+.footer__left-address {
+    color: $white;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.footer__left-phone {
+    color: $orange;
+    font-weight: bold;
+}

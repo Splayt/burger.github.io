@@ -180,17 +180,20 @@
                 <div class="options-accordeon">
                     <ul class="options-accordeon__list">
                         <li class="options-accordeon__item">
-                            <a href="#" class="options-accordeon__trigger" style="background-image: url(/img/options__section/item-1.jpg);">
+                            <a href="#" class="options-accordeon__trigger"
+                                style="background-image: url(/img/options__section/item-1.jpg);">
                                 Для мясоедов
                             </a>
                         </li>
                         <li class="options-accordeon__item">
-                            <a href="#" class="options-accordeon__trigger" style="background-image: url(/img/options__section/item-2.jpg);">
-                                Вегетарианское 
+                            <a href="#" class="options-accordeon__trigger"
+                                style="background-image: url(/img/options__section/item-2.jpg);">
+                                Вегетарианское
                             </a>
                         </li>
                         <li class="options-accordeon__item">
-                            <a href="#" class="options-accordeon__trigger" style="background-image: url(/img/options__section/item-3.jpg);">
+                            <a href="#" class="options-accordeon__trigger"
+                                style="background-image: url(/img/options__section/item-3.jpg);">
                                 Диетическое
                             </a>
                         </li>
@@ -280,6 +283,138 @@
                         </div>
                     </li>
                 </ul>
+            </section>
+            <section class="order section">
+                <div class="container">
+                    <div class="section__title section__title--yellow">
+                        Закажите доставку
+                    </div>
+                    <div class="form">
+                        <form class="form__area">
+                            <div class="form__block">
+                                <div class="form__row">
+                                    <div class="form__field">
+                                        <label for="field__name" class="form__field-title">Имя</label>
+                                        <input required type="text" class="form__field-input" name="name" id="field__name">
+                                    </div>
+                                    <div class="form__field">
+                                        <label for="field__phone" class="form__field-title">Телефон</label>
+                                        <input required type="text" class="form__field-input" name="phone" id="field__phone">
+                                    </div>
+                                </div>
+                                <div class="form__row">
+                                    <div class="form__field">
+                                        <label for="field__street" class="form__field-title">Улица</label>
+                                        <input required type="text" class="form__field-input" name="street" id="field__street">
+                                    </div>
+                                </div>
+                                <div class="form__row">
+                                    <div class="form__field">
+                                        <label for="field__house" class="form__field-title">Дом</label>
+                                        <input required type="text" class="form__field-input" name="house" id="field__house">
+                                    </div>
+                                    <div class="form__field">
+                                        <label for="field__housing" class="form__field-title">Корпус</label>
+                                        <input required type="text" class="form__field-input" name="housing" id="field__housing">
+                                    </div>
+                                    <div class="form__field">
+                                        <label for="field__flat" class="form__field-title">Квартира</label>
+                                        <input required type="text" class="form__field-input" name="flat" id="field__flat">
+                                    </div>
+                                    <div class="form__field">
+                                        <label for="field__stage" class="form__field-title">Этаж</label>
+                                        <input required type="text" class="form__field-input" name="stage" id="field__stage">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form__block">
+                                <div class="form__row">
+                                    <div class="form__field">
+                                        <label for="field__comment" class="form__field-title">Комментарий</label>
+                                        <textarea class="form__field-input" id="field__comment" name="comment" rows="3"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form__row">
+                                    <div class="form__radio">
+                                        <div class="form__radio-element">
+                                            
+                                            <input type="radio" name="money" id="radio__rest" class="form__radio-input">
+                                            <label for="radio__rest" class="form__radio-title">Потребуется сдача</label>
+                                        </div>
+                                        <div class="form__radio-element">
+                                            <input type="radio" name="card" id="radio__card" class="form__radio-input">
+                                            <label for="radio__card" class="form__radio-title">Оплата по карте</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form__row">
+                                    <div class="form__checkbox">
+                                        <div class="form__checkbox-element">
+                                            <input type="checkbox" name="call" id="checkbox__dont-call" class="form__checkbox-input">
+                                            <label for="checkbox__dont-call" class="form__checkbox-title">Не перезванивать</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form__row">
+                                    <input type="submit" class="form__submit" value="Заказать">
+                                    <input type="reset" class="form__reset" value="Очистить">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="map section">
+                <div class="map__area">
+                    <a class="map__area-picture">
+                    </a>
+                </div>
+                <footer class="footer">
+                    <div class="container footer__container">
+                        <div class="footer__left">
+                            <div class="footer__left-address">
+                                Санкт-Петергубрг, ул.Бабушкина, д.12/1, 15
+                            </div>
+                            <div class="footer__left-phone">
+                                +7 (812) 377-13-77
+                            </div>
+                        </div>
+                        <div class="footer__right">
+                            <div class="socials">
+                                <ul class="socials__list">
+                                    <li class="socials__item">
+                                        <a href="vk.com" class="socials__link">
+                                            <svg class="socials__icon">
+                                                <use xlink:href="/img/icons/sprite.svg#vk"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="socials__item">
+                                        <a href="facebook.com" class="socials__link">
+                                            <svg class="socials__icon">
+                                                <use xlink:href="/img/icons/sprite.svg#fb"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="socials__item">
+                                        <a href="instagram.com" class="socials__link">
+                                            <svg class="socials__icon">
+                                                <use xlink:href="/img/icons/sprite.svg#inst"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="socials__item">
+                                        <a href="twitter.com" class="socials__link">
+                                            <svg class="socials__icon">
+                                                <use xlink:href="/img/icons/sprite.svg#twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
             </section>
 
         </div>

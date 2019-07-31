@@ -1,0 +1,82 @@
+.form__area {
+	width: 100%;
+	display: flex;
+	color: $white;
+	font-family: 'Ubuntu';
+	font-size: 14px;
+	font-weight: 300;
+	justify-content: space-between;
+
+}
+
+.form__block {
+	width: 48%;
+
+}
+
+.form__row {
+	margin-bottom: rem(15px);
+	display: flex;
+
+}
+
+.form__field {
+	width: 100%;
+	text-align: left;
+	margin-left: 20px;
+	&:first-child {
+		margin-left: 0;
+	}
+}
+
+.form__field-title {
+	display: block;
+	margin-bottom: 7px;
+}
+
+.form__field-input {
+	
+	width: 100%;
+	border: 2px #d1cfcb solid;
+	color: $dark;
+	line-height: 33px;
+	border-radius: 5px;
+	margin-right: 20px;
+	resize: none;
+	&:focus {
+		border: 2px $yellow solid;
+	}
+}
+
+.form__radio-element, .form__checkbox-element {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	margin-right: 20px;
+}
+.form-submit {
+	margin-right: 20px;
+}
+
+.form__reset {
+	
+	color: $white;
+	outline: none;
+	border: 0;
+	background: none;
+	font-weight: 300;
+}
+
+.form__submit {
+    color: $white;
+    background-color: #e45028;
+    padding: .625rem 1.0625rem;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.42;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+

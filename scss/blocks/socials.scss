@@ -1,0 +1,28 @@
+.socials {
+    position: relative;
+    top: 50%;
+}
+
+.socials__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.socials__link {
+    max-width: 20px;
+    min-width: 20px;
+    &:hover {
+        .socials__icon {
+            
+            opacity: 1;
+        }
+    }
+}
+.socials__icon {
+    width: 20px;
+    height: 20px;
+    fill: $white;
+    opacity: .5;
+    transition: .5s;
+}
