@@ -1,7 +1,7 @@
 .section {
 	//height: 100%;
 	//background-color: rgba(0, 0, 0, .31);
-	min-height: 650px;
+	min-height: rem(650px);
 	//overflow: hidden;
 	display: flex;
 	//align-items: center;
@@ -9,7 +9,7 @@
 
 .section__title {
 	font-family: 'Gagalin';
-	font-size: 72px;
+	font-size: rem(72px);
 	font-weight: 400;
 	line-height: 1.42;
 	margin: 0;
@@ -19,7 +19,7 @@
 }
 .section__title--yellow {
 	color: $yellow;
-	font-size: 72px;
+	font-size: rem(72px);
 }
 
 .section__title--dark {

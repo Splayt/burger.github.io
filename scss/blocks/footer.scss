@@ -6,7 +6,7 @@
 	right: 0;
 	background-color: $black;
 	text-align: left;
-	padding: 7px 0;
+	padding: rem(7px) 0;
 }
 
 .footer__container {
@@ -24,11 +24,11 @@
 
 .footer__left-address {
     color: $white;
-    font-size: 14px;
+    font-size: rem(14px);
     line-height: 24px;
     font-family: 'Ubuntu';
     font-weight: 300;
-    margin-bottom: 5px;
+    margin-bottom: rem(5px);
 }
 
 .footer__left-phone {

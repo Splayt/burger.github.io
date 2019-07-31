@@ -21,13 +21,13 @@
     width: 80px;
     font-family: 'Gagalin', sans-serif;
 	font-weight: 400;
-	font-size: 40px;
+	font-size: rem(40px);
 	color: $white;
 	text-decoration: none;
 	writing-mode: vertical-lr;
 	transform: rotate(180deg);
 	align-items: center;
-	padding-top: 40px;
+	padding-top: rem(40px);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;

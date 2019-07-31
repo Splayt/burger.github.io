@@ -6,12 +6,12 @@
 .socials__item {
     display: inline-block;
     vertical-align: middle;
-    margin-left: 20px;
+    margin-left: rem(20px);
 }
 
 .socials__link {
-    max-width: 20px;
-    min-width: 20px;
+    max-width: rem(20px);
+    min-width: rem(20px);
     &:hover {
         .socials__icon {
             
@@ -20,8 +20,8 @@
     }
 }
 .socials__icon {
-    width: 20px;
-    height: 20px;
+    width: rem(20px);
+    height: rem(20px);
     fill: $white;
     opacity: .5;
     transition: .5s;

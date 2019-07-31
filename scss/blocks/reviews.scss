@@ -36,24 +36,24 @@
 
 .reviews__title {
     font-family: "Gagalin";
-    font-size: 14px;
+    font-size: rem(14px);
     line-height: 28px;
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: rem(20px);
 }
 
 .reviews__text {
 	font-weight: 300;
-    margin-bottom: 20px;
+    margin-bottom: rem(20px);
     color: #fff;
 }
 .reviews__button {
 	display: inline-block;
-	font-size: 13px;
+	font-size: rem(13px);
 	font-weight: 500;
 	line-height: 30px;
 	text-transform: uppercase;
-	padding: 3px 15px;
+	padding: rem(3px) rem(15px);
 	background-color: $dark;
 	border-radius: 5px;
 	cursor: pointer;

@@ -1,28 +1,28 @@
 .accordeon__item {
     color: $white;
-    margin-bottom: 33px;
-    font-size: 14px;
+    margin-bottom: rem(33px);
+    font-size: rem(14px);
     list-style-type: none;
     display: none;
 }
 
 .accordeon__trigger {
-    font-size: 14px;
+    font-size: rem(14px);
     font-family: 'Gagalin';
     color: $white;
-    margin-bottom: 12px;
+    margin-bottom: rem(12px);
     text-decoration: none;
 }
 
 
 .accordeon__item-image {
-    height: 100px;
-    width: 100px;
-    max-width: 100px;
-	min-width: 100px;
+    height: rem(100px);
+    width: rem(100px);
+    max-width: rem(100px);
+	min-width: rem(100px);
 	display: inline-block;
 	vertical-align: top;
-	margin-bottom: 40px;
+	margin-bottom: rem(40px);
 	border-radius: 50%;
 	overflow: hidden;
 	background-repeat: no-repeat;
