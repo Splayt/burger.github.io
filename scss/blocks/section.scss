@@ -14,12 +14,16 @@
 	line-height: 1.42;
 	margin: 0;
 	text-transform: uppercase;
+	@include phones {
+		font-size: rem(50px);
+	}
 
 
 }
 .section__title--yellow {
 	color: $yellow;
-	font-size: rem(72px);
+	
+
 }
 
 .section__title--dark {

@@ -21,6 +21,11 @@
             opacity: 1;
         }
     }
+    @include phones {
+        width: 50%;
+        height: 25%;
+    }
+
 }
 
 .reviews__wrap {
@@ -31,7 +36,11 @@
     bottom: 0;
     background-color: rgba(#000, .5);
     opacity: 0;
-    padding: 50px 20px 0;
+    padding: rem(50px) rem(20px) 0;
+    @include phones {
+        padding: 0;
+        text-align: center;
+    }
 }
 
 .reviews__title {
@@ -40,12 +49,22 @@
     line-height: 28px;
     color: #fff;
     margin-bottom: rem(20px);
+        @include phones {
+        font-size: rem(24px);
+        display: inline-block;
+        margin-top: rem(10px);
+        text-align: center;
+        
+        }
 }
 
 .reviews__text {
 	font-weight: 300;
     margin-bottom: rem(20px);
     color: #fff;
+    @include phones {
+        display: none;  
+    }
 }
 .reviews__button {
 	display: inline-block;
@@ -62,5 +81,6 @@
 	transition: .4s;
 	&:hover {
 		background-color: darken($dark, 7%);
-	}
+    }
+
 }

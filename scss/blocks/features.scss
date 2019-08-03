@@ -3,12 +3,30 @@
     text-align:center;
     .features__img {
         margin-bottom: rem(25px);
+        @include phones {
+            //width: 25%;
+            text-align: center;
+        }
+    }
+
+    .features__picture {
+        height: rem(85px);
+        display: inline-block;
+        position: relative;
+        max-width: 100%;
+        max-height: 100%;
     }
     .features__item {
         display: flex;
         flex-direction: column;
         padding: 0 rem(10px);
         margin-bottom: rem(40px);
+        @include phones {
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: left;
+            margin-bottom: rem(10px);
+        }
     }
     
     .features__title {
@@ -22,7 +40,19 @@
     .features__text {
         
         font-size: rem(14px);
-        line-height: 24px;
+        line-height: rem(24px);
+    }
+
+    @include phones {
+        flex-direction: column;
+    }
+}
+
+.features__description {
+    @include phones {
+        width: 70%;
+        text-align: left;
+        
     }
 }
 

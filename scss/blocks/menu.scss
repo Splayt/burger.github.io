@@ -1,5 +1,8 @@
 .menu {
-    margin-right: rem(13px);
+	margin-right: rem(13px);
+		@include phones {
+			display: none;
+		}
 }
 .menu__item {
 	display: inline-block;

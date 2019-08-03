@@ -6,17 +6,26 @@
 	font-size: rem(14px);
 	font-weight: 300;
 	justify-content: space-between;
+		@include phones {
+			flex-direction: column;
+		}
 
 }
 
 .form__block {
 	width: 48%;
+		@include phones {
+			width: 100%;
+		}
 
 }
 
 .form__row {
 	margin-bottom: rem(15px);
 	display: flex;
+	@include phones {
+		justify-content: center;
+	}
 
 }
 

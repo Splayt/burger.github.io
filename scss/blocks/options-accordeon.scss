@@ -4,21 +4,24 @@
     top: 0;
     right: 0;
     bottom: 0;
+
 }
 
 .options-accordeon__list {
     display:flex;
     height: 100%;
+
 }
 
 .options-accordeon__item {
     display: flex;
     height: 100%;
     color: #fff;
+    
 }
 
 .options-accordeon__trigger {
-    width: 80px;
+    width: rem(80px);
     font-family: 'Gagalin', sans-serif;
 	font-weight: 400;
 	font-size: rem(40px);
@@ -30,5 +33,10 @@
 	padding-top: rem(40px);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
+    background-position: center;
+    @include phones {
+		width: rem(40px);
+		line-height: 40px;
+		font-size: rem(34px);
+	}
 }

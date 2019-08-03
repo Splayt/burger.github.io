@@ -11,16 +11,25 @@
 
 .footer__container {
     flex-direction: row;
-}
-
-.footer__left, .footer__right {
-    width: 50%;
-    margin: 0;
+        @include phones {
+            flex-direction: column;
+        }
 }
 
 .footer__right {
     text-align: right;
 }
+.footer__left, .footer__right {
+    width: 50%;
+    margin: 0;
+    @include phones {
+        width: 100%;
+        text-align: center;
+        margin-bottom: rem(10px);
+    }
+}
+
+
 
 .footer__left-address {
     color: $white;

@@ -3,16 +3,53 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
-}
-.main__content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 15%;
+    position: relative;
 }
 
+.main__container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 15%;
+
+}
+.main__content {
+    /*display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15%;*/
+    display: flex;
+    align-items: center;
+
+    @include phones {
+        
+        flex-direction: column;
+    }
+    
+}
+
+.main__image,
 .main__description {
     width: 50%;
+    @include phones {
+        height: 50%;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.main__picture {
+    max-height: 100%;
+    max-width: 100%;
+}
+.main__description {
+    width: 50%;
+    @include phones {
+        width: 100%;
+        padding-top: rem(20px);
+		padding-bottom: rem(100px);
+    }
 }
 
 .main__title {
@@ -33,4 +70,17 @@
 	line-height: 1;
     font-size: rem(65px);
     margin: 0;
+        @include phones {
+            font-size: rem(44px);
+        }
+}
+
+.main__button {
+	width: rem(50px);
+	height: rem(50px);
+	margin: 0 auto;
+	background-color: transparent;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
 }
