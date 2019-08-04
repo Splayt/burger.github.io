@@ -556,10 +556,6 @@ body {
   padding-bottom: 15%; }
 
 .main__content {
-  /*display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 15%;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
