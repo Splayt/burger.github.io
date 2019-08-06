@@ -1,5 +1,5 @@
 .best {
-    background: url(img/best__section/bg.png);
+    background: url(../img/best__section/bg.png);
     background-repeat: no-repeat;
 	background-position: 50%;
 	background-size: cover;
@@ -15,7 +15,7 @@
         }
     }
         @include phones {
-            background: url(/img/best__section/bgphone.jpg);
+            background: url(../img/best__section/bgphone.jpg);
             
         }
 }

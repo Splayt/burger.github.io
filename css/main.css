@@ -668,7 +668,7 @@ body {
   padding-top: 0.625rem; }
 
 .best {
-  background: url(img/best__section/bg.png);
+  background: url(../img/best__section/bg.png);
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
@@ -687,7 +687,7 @@ body {
         margin-bottom: 1.25rem; } }
   @media screen and (max-width: 480px) {
     .best {
-      background: url(/img/best__section/bgphone.jpg); } }
+      background: url(../img/best__section/bgphone.jpg); } }
 
 .features__list {
   display: -webkit-box;
@@ -827,7 +827,7 @@ body {
     background-color: black; }
 
 .team {
-  background: url(img/team__section/SBS_1255-X2.jpg) center top/cover no-repeat;
+  background: url(../img/team__section/SBS_1255-X2.jpg) center top/cover no-repeat;
   position: relative; }
 
 .team__content {
@@ -873,7 +873,7 @@ body {
   background-position: center; }
 
 .options {
-  background: url(img/options__section/1.jpg) center center/cover no-repeat;
+  background: url(../img/options__section/1.jpg) center center/cover no-repeat;
   position: relative; }
   .options .section__title {
     padding-left: 10%;
@@ -926,7 +926,7 @@ body {
       font-size: 2.125rem; } }
 
 .map {
-  background-image: url(img/map__section/carta.jpg);
+  background-image: url(../img/map__section/carta.jpg);
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
@@ -1016,7 +1016,7 @@ body {
   transition: .5s; }
 
 .order {
-  background: url(img/order__section/1.jpg) center center/cover no-repeat; }
+  background: url(../img/order__section/1.jpg) center center/cover no-repeat; }
   .order .section__title {
     margin-bottom: 2.8125rem; }
     @media screen and (max-width: 480px) {
