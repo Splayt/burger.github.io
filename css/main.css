@@ -528,7 +528,7 @@ body {
   margin-top: -7.5rem; }
 
 .main {
-  background: url(burgersite/img/main__section/video-bg.jpg) center center no-repeat;
+  background: url(../img/main__section/video-bg.jpg) center center no-repeat;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
